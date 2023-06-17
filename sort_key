@@ -1,0 +1,7 @@
+def key(names):
+    return names["capacity"]
+
+house= [{"capacity": 10},{"capacity": 3}, {"capacity": 20} ]
+house.sort(key = key)
+
+print(house)
